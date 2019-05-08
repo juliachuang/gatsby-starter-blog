@@ -42,7 +42,7 @@ function Bio() {
               Francisco building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Here's her twitter
               </a>
             </p>
           </div>
