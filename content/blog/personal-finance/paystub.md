@@ -1,12 +1,13 @@
 ---
 title: How to read a Pay Stub
 date: "2019-04-02"
-description: Introduction to reading a paystub is an important skill to have. Figure out where exaxtly y 
+description: Introduction to reading a paystub is an important skill to have. Figure out where exactly where your money is going.
 ---
 
 Let's say you started your first job but the amount that you have depositing into your account is a lot lower than your hourly wages. The reason for this is that despite the fact that you are getting paid the federal minimum $7.25, a bunch of stuff is coming out of your paycheck. Knowing what is in your pay stub and how to read it will also make sure your employer is not missing any hours or anything and you can also get a better grasp of how much life costs.
 
-![pay stub][paystubimg]
+![pay stub][./paystub1.png]
+
 ADP Pay Statement (ADP is one of the largest payroll processing service)
 
 Below provides an explanation of the typical parts of a pay statement.
@@ -43,5 +44,3 @@ If you're an hourly worker, it's important to double check the pay period for wh
 ##7. Withholding Rules
 
 Your pay stub may also have a section that indicates what you filled out on your W-4. With this information, you can determine estimated tax withholdings. Having a higher exemption or allowance would indicate that less tax is being withheld from your paycheck because you would theoretically have the same exemptions on your tax return which would lower your taxable income.
-
-[paystubimg]:./paystub1.png
