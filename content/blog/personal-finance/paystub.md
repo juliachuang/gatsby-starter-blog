@@ -44,4 +44,4 @@ If you're an hourly worker, it's important to double check the pay period for wh
 
 Your pay stub may also have a section that indicates what you filled out on your W-4. With this information, you can determine estimated tax withholdings. Having a higher exemption or allowance would indicate that less tax is being withheld from your paycheck because you would theoretically have the same exemptions on your tax return which would lower your taxable income.
 
-[paystubimg]:paystub1.png
+[paystubimg]:./paystub1.png
