@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0f3c55a-04da-4445-ad87-6cf85970a563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/content/blog/personal-finance/paystub.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/personal-finance/paystub.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +81,8 @@
         <entry file="file://$PROJECT_DIR$/content/blog/personal-finance/paystub.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -273,12 +272,12 @@
       <workItem from="1556822141903" duration="574000" />
       <workItem from="1556861637481" duration="1806000" />
       <workItem from="1556995650998" duration="844000" />
-      <workItem from="1557275061687" duration="2146000" />
+      <workItem from="1557275061687" duration="2216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6002000" />
+    <option name="totallyTimeSpent" value="6072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="235" y="23" width="1395" height="1027" extended-state="0" />
@@ -471,8 +470,8 @@
     <entry file="file://$PROJECT_DIR$/content/blog/personal-finance/paystub.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>
