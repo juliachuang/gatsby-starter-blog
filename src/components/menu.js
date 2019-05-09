@@ -3,7 +3,8 @@ import {Link} from "gatsby";
 
 function Menu() {
 
-  return (<div>
+  return (
+      <div> Menu bar:
   <Link to={"/blog/tech"}>
     Tech Blog
   </Link>
