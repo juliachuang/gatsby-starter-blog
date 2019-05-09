@@ -36,7 +36,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in the Seattle area building things.
+              Written by <strong>{author}</strong> who lives and works in the Seattle area.
               {/*{` `}*/}
               {/*<a href={`https://twitter.com/${social.twitter}`}>She doesn't'reallttwitter</a>*/}
             </p>

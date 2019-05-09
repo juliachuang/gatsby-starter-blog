@@ -2,6 +2,7 @@
 title: How to read a Pay Stub
 date: "2019-04-02"
 description: Introduction to reading a paystub is an important skill to have. Figure out where exactly where your money is going.
+tags: ["paycheck", "paystub", "pay stub", "how to"]
 ---
 
 Let's say you started your first job but the amount that you have depositing into your account is a lot lower than your hourly wages. The reason for this is that despite the fact that you are getting paid the federal minimum $7.25, a bunch of stuff is coming out of your paycheck. Knowing what is in your pay stub and how to read it will also make sure your employer is not missing any hours or anything and you can also get a better grasp of how much life costs.
