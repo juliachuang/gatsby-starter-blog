@@ -7,7 +7,7 @@ function Menu() {
   <Link to={"/blog/tech"}>
     Tech Blog
   </Link>
-
+    |
   <Link to={"/blog/personal-finance"}>
       Personal Finance Blog
   </Link>
