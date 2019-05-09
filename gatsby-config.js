@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Julia Chuang's Site`,
+        short_name: `JC News`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#142634`,
+        theme_color: `#BDC7C1`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
