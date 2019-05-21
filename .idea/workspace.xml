@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f3c55a-04da-4445-ad87-6cf85970a563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +29,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="965">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -74,7 +84,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="480">
-                <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+                <caret line="32" selection-start-line="32" selection-end-line="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -137,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/pages/blog/personal-finance.js" />
         <option value="$PROJECT_DIR$/src/pages/blog/tech.js" />
         <option value="$PROJECT_DIR$/src/components/menu.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
         <option value="$PROJECT_DIR$/src/components/layout.js" />
         <option value="$PROJECT_DIR$/content/blog/blog/personal-finance/vanguard_accounts.md" />
@@ -145,6 +154,7 @@
         <option value="$PROJECT_DIR$/content/blog/blog/personal-finance/intro-to-cc.md" />
         <option value="$PROJECT_DIR$/.cache/api-runner-ssr.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
       </list>
     </option>
   </component>
@@ -160,17 +170,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1254" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="374" />
     <option name="y" value="23" />
     <option name="width" value="1254" />
-    <option name="height" value="1417" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,8 +269,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,18 +330,20 @@
       <workItem from="1557275061687" duration="6468000" />
       <workItem from="1557358330213" duration="7735000" />
       <workItem from="1557422459850" duration="1679000" />
-      <workItem from="1557433275975" duration="1758000" />
+      <workItem from="1557433275975" duration="3064000" />
+      <workItem from="1557851820832" duration="611000" />
+      <workItem from="1558455707931" duration="128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21496000" />
+    <option name="totallyTimeSpent" value="23541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="2507" height="1417" extended-state="6" />
+    <frame x="374" y="23" width="1254" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.136714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28630364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +382,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/index.js</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -590,13 +602,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/assets/profile-pic.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/assets/gatsby-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cache/api-runner-ssr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="197" selection-start-line="8" selection-start-column="197" selection-end-line="8" selection-end-column="197" />
         </state>
       </provider>
     </entry>
@@ -619,29 +641,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="480">
-            <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <caret line="32" selection-start-line="32" selection-end-line="32" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/assets/profile-pic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/assets/gatsby-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cache/api-runner-ssr.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="197" selection-start-line="8" selection-start-column="197" selection-end-line="8" selection-end-column="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
