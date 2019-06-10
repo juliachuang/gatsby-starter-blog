@@ -1,6 +1,6 @@
 ---
 title: Learning React
-date: "2019-06010"
+date: "2019-06-10"
 description: Information as I'm learning react
 ---
 
