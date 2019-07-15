@@ -129,8 +129,18 @@ const path = require('path')
    }
 
 
+this.refs.scrollIntoView()
+
+key for nulled stuff
+
 ## Testing
 `npm run start` - load local server
 `npm run build` - rebuild
 `npm run prettier`  - just shows you the prettier diff
 `npm run format`  - actually formats via prettier
+
+
+#https://reactjs.org/docs/error-decoder.html/?invariant=31&args[]=object%20with%20keys%20%7B10%7D&args[]=
+USING A Map of something that has keys and thus, need to get "key"
+
+https://stackoverflow.com/questions/43642351/react-list-rendering-wrong-data-after-deleting-item

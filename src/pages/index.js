@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Menu from "../components/menu"
-import NewHollyInfo from "../components/newholly";
+import NewHollyInfo from "../components/newholly"
 
 class BlogIndex extends React.Component {
   render() {
@@ -23,8 +23,7 @@ class BlogIndex extends React.Component {
         <Bio />
         <Menu />
 
-        <NewHollyInfo/>
-
+        <NewHollyInfo />
       </Layout>
     )
   }
