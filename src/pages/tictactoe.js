@@ -143,15 +143,15 @@ import "./tictactoe.css"
 //   }
 // }
 
-// class tictactoe extends React.Component {
-//   render() {
-//     return (
-//       <>
-//         <Game />
-//       </>
-//     )
-//   }
-// }
+class tictactoe extends React.Component {
+  render() {
+    return (
+      <>
+        <Game />
+      </>
+    )
+  }
+}
 
 
 
