@@ -1,6 +1,6 @@
-// import React from "react"
-// import ReactDOM from "react-dom"
-// import "./tictactoe.css"
+import React from "react"
+import ReactDOM from "react-dom"
+import "./tictactoe.css"
 
 // // class Square extends React.Component { //function only allows "return" and props with no state
 // function Square(props) {
@@ -153,6 +153,18 @@
 //   }
 // }
 
-// export default tictactoe
 
-// // ReactDOM.render(<Game />, document.getElementById('root'));
+
+class Game extends React.Component {
+  
+  render() {
+    return (
+      <div className="game">
+<h1>hi</h1>
+      </div>
+    )
+  }
+}
+export default tictactoe
+
+ReactDOM.render(<Game />, document.getElementById('root'));
