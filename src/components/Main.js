@@ -33,7 +33,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Julia and Jeff met at Univrsity of Texas at Austin..
+            Julia and Jeff met at University of Texas at Austin..
           </p>
           <p>
             Need to fill this out more...
@@ -83,7 +83,9 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Renting a townhouse in Dallas for out of town guests. Expect a night of fun, laughter, and board games.
+            We will be renting a townhouse in Dallas for out of town guests. <br/> 
+            If you are in town, we  will be hanging out at this location.<br/>
+            Expect a few nights of fun, laughter, and board games.
           </p>
           {close}
         </article>

@@ -9,8 +9,8 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Julia Chuang & Jeffrey Li</h1>
-                <p>Celebrating a union<br />
-                Friday, November 15 - Sunday, November 17</p>
+                <p>Celebrating a union <br />
+                Friday, November 15 - Saturday, November 17</p>
             </div>
         </div>
         <nav>
