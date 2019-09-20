@@ -52,6 +52,7 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic02} alt="" />
           </span> */}
+          <p>This event will consist of small get togethers around November 15, 2019 located in the DFW area.</p>
           <h3><u>Friday, November 15</u></h3>
           <h4>Ceremony</h4>
             <i>Around 5pm</i><br/>
