@@ -72,13 +72,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="accomodations"
-          className={`${this.props.article === 'accomodations' ? 'active' : ''} ${
+          id="accommodations"
+          className={`${this.props.article === 'accommodations' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Accomodations</h2>
+          <h2 className="major">Accommodations</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -95,8 +95,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">RSVP</h2>
-          <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+          {/* <h2 className="major">RSVP</h2> */}
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScek2isnRjlotqprT5O4NLV_HTNZDpasY_92cMyh7i9rUdwXA/viewform?embedded=true" width="560" height="976" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          {/* <form method="post" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -122,7 +123,7 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           {/* <ul className="icons">
             <li>
               <a
