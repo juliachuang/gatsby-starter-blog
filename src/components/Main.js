@@ -28,94 +28,76 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Story</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Julia and Jeff met at Univrsity of Texas at Austin..
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Need to fill this out more...
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="events"
+          className={`${this.props.article === 'events' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
+          <h3 className="major">Events</h3>
+          {/* <span className="image main">
             <img src={pic02} alt="" />
-          </span>
+          </span> */}
+          <h3><u>Friday, November 15</u></h3>
+          <h4>Ceremony</h4>
+            <i>Around 5pm</i><br/>
+            <i>Officiated by: whichever sister I make do this</i>
+            <br/>
+
+          <h4>Dinner</h4>
+            <i>TBD</i>
+          <h3><u>Saturday, November 16</u></h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            <i>Pay your own pay events</i>
+            <ul>
+              <li>Korean Spa & Board Games</li>
+              <li>Bowling</li>
+            </ul>
           </p>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="accomodations"
+          className={`${this.props.article === 'accomodations' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Accomodations</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Renting a townhouse in Dallas for out of town guests. Expect a night of fun, laughter, and board games.
           </p>
           {close}
         </article>
 
         <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
+          id="rsvp"
+          className={`${this.props.article === 'rsvp' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <h2 className="major">RSVP</h2>
+          <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="bot-field" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -123,6 +105,10 @@ class Main extends React.Component {
             <div className="field half">
               <label htmlFor="email">Email</label>
               <input type="text" name="email" id="email" />
+            </div>
+            <div className="field half first">
+              <label htmlFor="guests">Total # of Gueests</label>
+              <input type="text" name="name" id="guests" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -137,7 +123,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <ul className="icons">
+          {/* <ul className="icons">
             <li>
               <a
                 href="https://twitter.com/HuntaroSan"
@@ -164,7 +150,7 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
           {close}
         </article>
       </div>
