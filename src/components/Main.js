@@ -52,21 +52,33 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic02} alt="" />
           </span> */}
-          <p>This event will consist of small get togethers around November 15, 2019 located in the DFW area.</p>
           <h3><u>Friday, November 15</u></h3>
           <h4>Ceremony</h4>
-            <i>Around 5pm</i><br/>
-            <i>Officiated by: whichever sister I make do this</i>
-            <br/>
+            <p>Location: TBD <br/>
+               Time: Around 6:00pm<br/>
+               Officiated by: whichever sister I make do this
+            </p>
 
           <h4>Dinner</h4>
-            <i>TBD</i>
+          <p>
+            Location: TBD<br/>
+            Time: Around 6:30pm
+          </p>
+
+          <h4>Hangout</h4>
+          <p>Hang out, board games, movies at the AirBnb</p>
+
+
           <h3><u>Saturday, November 16</u></h3>
           <p>
-            <i>Pay your own pay events</i>
+            <i>Still TBD  - Some ideas</i>
             <ul>
               <li>Korean Spa & Board Games</li>
               <li>Bowling</li>
+              <li>Laser Tag</li>
+              <li>Whirly Ball</li>
+              <li>Indoor Skydiving</li>
+              <li>Top Golf</li>
             </ul>
           </p>
           {close}
