@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Julia & Jeff",
-    description: "Julia & Jeff | 11.15.19"
+    description: "11.15.19 Celebrate Julia & Jeff"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
