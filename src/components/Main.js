@@ -53,10 +53,12 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span> */}
           <h3><u>Friday, November 15</u></h3>
-          <h4>Ceremony</h4>
+          <h4>"Ceremony"</h4>
             <p>Location: TBD <br/>
                Time: Around 6:00pm<br/>
                Officiated by: whichever sister I make do this
+               Not sure how we're going to do it since we don't really want a real wedding ceremony. <br/>
+              Figuring out the details but will update
             </p>
 
           <h4>Dinner</h4>
@@ -96,9 +98,10 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            We will be renting a townhouse in Dallas for out of town guests. <br/> 
+            We have reneted out an Airbnb in Plano for out of town guests. <br/> 
             If you are in town, we  will be hanging out at this location.<br/>
-            Expect a few nights of fun, laughter, and board games.
+            Expect a few nights of fun, laughter, and board games.<br/><br/>
+            Please mark whether or not you need a place to stay so we can send you the details in the RSVP.  
           </p>
           {close}
         </article>
