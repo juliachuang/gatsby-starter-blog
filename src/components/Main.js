@@ -32,12 +32,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <p>
-            Julia and Jeff met at University of Texas at Austin..
-          </p>
-          <p>
-            Need to fill this out more...
-          </p>
+          <p>Julia and Jeff met at University of Texas at Austin..</p>
+          <p>Need to fill this out more...</p>
           {close}
         </article>
 
@@ -52,26 +48,32 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic02} alt="" />
           </span> */}
-          <h3><u>Friday, November 15</u></h3>
+          <h3>
+            <u>Friday, November 15</u>
+          </h3>
           <h4>"Ceremony"</h4>
-            <p>Location: TBD <br/>
-               Time: Around 7:00pm<br/>
-               Officiated by: whichever sister I make do this
-            </p>
+          <p>
+            Location: TBD <br />
+            Time: Around 7:00pm
+            <br />
+            Officiated by: whichever sister I make do this
+          </p>
 
           <h4>Dinner</h4>
           <p>
-            Location: (most likely) Bulla Gastrobar<br/>
+            Location: (most likely) Bulla Gastrobar
+            <br />
             Time: 7:30pm
           </p>
 
           <h4>Hangout</h4>
           <p>Hang out, board games, movies at the AirBnb</p>
 
-
-          <h3><u>Saturday, November 16</u></h3>
+          <h3>
+            <u>Saturday, November 16</u>
+          </h3>
           <p>
-            <i>Still TBD  - Some ideas</i>
+            <i>Still TBD - Some ideas</i>
             <ul>
               <li>Korean Spa & Board Games</li>
               <li>Bowling</li>
@@ -86,9 +88,9 @@ class Main extends React.Component {
 
         <article
           id="accommodations"
-          className={`${this.props.article === 'accommodations' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${
+            this.props.article === 'accommodations' ? 'active' : ''
+          } ${this.props.articleTimeout ? 'timeout' : ''}`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Accommodations</h2>
@@ -96,10 +98,15 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            We have reneted out an Airbnb in Plano for out of town guests. <br/> 
-            If you are in town, we  will be hanging out at this location.<br/>
-            Expect a few nights of fun, laughter, and board games.<br/><br/>
-            Please mark whether or not you need a place to stay so we can send you the details in the RSVP.  
+            We have reneted out an Airbnb in Plano for out of town guests.{' '}
+            <br />
+            If you are in town, we will be hanging out at this location.
+            <br />
+            Expect a few nights of fun, laughter, and board games.
+            <br />
+            <br />
+            Please mark whether or not you need a place to stay so we can send
+            you the details in the RSVP.
           </p>
           {close}
         </article>
