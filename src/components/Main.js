@@ -55,10 +55,8 @@ class Main extends React.Component {
           <h3><u>Friday, November 15</u></h3>
           <h4>"Ceremony"</h4>
             <p>Location: TBD <br/>
-               Time: Around 6:00pm<br/>
+               Time: Around 7:00pm<br/>
                Officiated by: whichever sister I make do this
-               Not sure how we're going to do it since we don't really want a real wedding ceremony. <br/>
-              Figuring out the details but will update
             </p>
 
           <h4>Dinner</h4>
