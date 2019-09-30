@@ -63,8 +63,8 @@ class Main extends React.Component {
 
           <h4>Dinner</h4>
           <p>
-            Location: TBD<br/>
-            Time: Around 6:30pm
+            Location: (most likely) Bulla Gastrobar<br/>
+            Time: 7:30pm
           </p>
 
           <h4>Hangout</h4>
