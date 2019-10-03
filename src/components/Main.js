@@ -118,9 +118,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          {/* <h2 className="major">RSVP</h2> */}
-          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScek2isnRjlotqprT5O4NLV_HTNZDpasY_92cMyh7i9rUdwXA/viewform?embedded=true" width="560" height="976" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-          <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+          <form name="rsvp" method="post" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -135,7 +133,7 @@ class Main extends React.Component {
               <input type="text" name="guests" id="guests" />
             </div>
             <div className="field half">
-              <label htmlFor="guests">Accommodations needed?</label>
+              <label htmlFor="housing">Accommodations needed?</label>
               <input type="text" name="housing" id="housing" />
             </div>
             <div className="field">
