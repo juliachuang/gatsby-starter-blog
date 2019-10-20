@@ -73,15 +73,9 @@ class Main extends React.Component {
             <u>Saturday, November 16</u>
           </h3>
           <p>
-            <i>Still TBD - Some ideas</i>
-            <ul>
-              <li>Korean Spa & Board Games</li>
-              <li>Bowling</li>
-              <li>Laser Tag</li>
-              <li>Whirly Ball</li>
-              <li>Indoor Skydiving</li>
-              <li>Top Golf</li>
-            </ul>
+            Morning: Whirlyball (3115 Parker Rd, Plano, TX 75023)
+            <br/>
+            Afternoon: King Spa (2154 Royal Ln, Dallas, TX 75229)
           </p>
           {close}
         </article>
