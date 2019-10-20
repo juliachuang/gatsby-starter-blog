@@ -51,10 +51,10 @@ class Main extends React.Component {
           <h3>
             <u>Friday, November 15</u>
           </h3>
-          {/* <h4>"Ceremony"</h4>
+          <h4>"Ceremony"</h4>
           <p>
-            
-          </p> */}
+            We'll be married at the courthouse so just come for the fun bits below!
+          </p>
 
           <h4>Dinner</h4>
           <p>
