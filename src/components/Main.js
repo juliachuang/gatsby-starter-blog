@@ -51,23 +51,23 @@ class Main extends React.Component {
           <h3>
             <u>Friday, November 15</u>
           </h3>
-          <h4>"Ceremony"</h4>
+          {/* <h4>"Ceremony"</h4>
           <p>
-            Location: TBD <br />
-            Time: Around 7:00pm
-            <br />
-            Officiated by: whichever sister I make do this
-          </p>
+            
+          </p> */}
 
           <h4>Dinner</h4>
           <p>
-            Location: (most likely) Bulla Gastrobar
+            Location: Bulla Gastrobar in the Sevilla Room 
+            <br/>
+            Address: 6007 Legacy Drive Ste 180 Plano, TX 75024  
             <br />
             Time: 7:30pm
+      
           </p>
 
           <h4>Hangout</h4>
-          <p>Hang out, board games, movies at the AirBnb</p>
+          <p>Head back to the AirBnb for movies and board games.</p>
 
           <h3>
             <u>Saturday, November 16</u>
