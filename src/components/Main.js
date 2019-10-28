@@ -32,8 +32,15 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <p>Julia and Jeff met at University of Texas at Austin..</p>
-          <p>Need to fill this out more...</p>
+          <p>Julia and Jeff first met at University of Texas at Austin. They technically first met when Julia approached Jeff dressed in a suit while returning from an info session, something that they didn't realize was their first encounter until years later.</p>
+          <p>They knew of each other and had plenty of mutual friends. Their encounters were always notable in some way:
+            <ul>
+              <li>Julia trying (and failing) to set up Jeff for an assassination during a round of ABSA Assassins</li>
+              <li>Jeff scarring his left shin at a paper lantern festival Julia organized</li>
+              <li>Julia trying (and failing) to set Jeff up with one of her friends</li>
+            </ul>
+          </p>
+          <p>But it wasn't until after college that they really got to know each other, and it's been an adventure ever since.</p>
           {close}
         </article>
 
@@ -81,6 +88,25 @@ class Main extends React.Component {
         </article>
 
         <article
+          id="dallas"
+          className={`${
+            this.props.article === 'dallas' ? 'active' : ''
+          } ${this.props.articleTimeout ? 'timeout' : ''}`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Activities Around Dallas</h2>
+          {/* <span className="image main">
+            <img src={pic03} alt="" />
+          </span> */}
+          <p>
+            <ul>
+              <li>Botanical gardens</li>
+            </ul>
+          </p>
+          {close}
+        </article>
+
+        <article
           id="accommodations"
           className={`${
             this.props.article === 'accommodations' ? 'active' : ''
@@ -92,7 +118,7 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            We have reneted out an Airbnb in Plano for out of town guests.{' '}
+            We have rented out an Airbnb in Plano for out of town guests.{' '}
             <br />
             If you are in town, we will be hanging out at this location.
             <br />

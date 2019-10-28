@@ -48,6 +48,16 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
+              props.onOpenArticle('dallas')
+            }}
+          >
+            Around Dallas
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
               props.onOpenArticle('rsvp')
             }}
           >
