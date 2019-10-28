@@ -60,7 +60,15 @@ class Main extends React.Component {
           </h3>
           <h4>"Ceremony"</h4>
           <p>
-            We'll be married at the courthouse so just come for the fun bits below!
+            The ceremony will be officiated by Melody and will take place at the Airbnb so please meet there promptly at 7:00pm. 
+            We will then carpool to dinner. 
+            <br/>
+            <br/>
+            Location: 7100 Garden Laurel Court, Plano, TX
+            <br/>
+            Time: 7:00pm
+            <br/>
+            Dress: Smart casual
           </p>
 
           <h4>Dinner</h4>
@@ -69,20 +77,21 @@ class Main extends React.Component {
             <br/>
             Address: 6007 Legacy Drive Ste 180 Plano, TX 75024  
             <br />
-            Time: 7:30pm
-      
+            Time: Reservation starts at 7:30pm
+            <br />
+            Dress: Smart casual
           </p>
 
           <h4>Hangout</h4>
           <p>Head back to the AirBnb for movies and board games.</p>
-
+          
           <h3>
             <u>Saturday, November 16</u>
           </h3>
           <p>
-            Morning: Whirlyball (3115 Parker Rd, Plano, TX 75023)
+            11:00am - Whirlyball (3115 Parker Rd, Plano, TX 75023)
             <br/>
-            Afternoon: King Spa (2154 Royal Ln, Dallas, TX 75229)
+            Afternoon - King Spa (2154 Royal Ln, Dallas, TX 75229)
           </p>
           {close}
         </article>
@@ -101,6 +110,8 @@ class Main extends React.Component {
           <p>
             <ul>
               <li>Botanical gardens</li>
+              <li>The Shops at Legacy</li>
+              <li>Arbor Hills Nature Preserve</li>
             </ul>
           </p>
           {close}
