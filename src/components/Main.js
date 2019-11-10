@@ -29,9 +29,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Story</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic01} alt="" />
-          </span>
+          </span> */}
           <p>Julia and Jeff first met at University of Texas at Austin. They technically first met when Julia approached Jeff dressed in a suit while returning from an info session, something that they didn't realize was their first encounter until years later.</p>
           <p>They knew of each other and had plenty of mutual friends. Their encounters were always notable in some way:
             <ul>
@@ -60,24 +60,24 @@ class Main extends React.Component {
           </h3>
           <h4>"Ceremony"</h4>
           <p>
-            The ceremony will be officiated by Melody and will take place at the Airbnb so please meet there promptly at 7:00pm. 
-            We will then carpool to dinner. 
+            <i>The ceremony will be officiated by Melody and will take place at the Airbnb so please meet there promptly at 7:00pm. 
+            We will then carpool to dinner. This is a pretty casual affair - will be standing room only and fairly short.</i>
             <br/>
             <br/>
-            Location: 7100 Garden Laurel Court, Plano, TX
+            Time: <b>7:00pm</b>
             <br/>
-            Time: 7:00pm
+            Location: <b>7100 Garden Laurel Court, Plano, TX</b>
             <br/>
             Dress: Smart casual
           </p>
 
           <h4>Dinner</h4>
           <p>
-            Location: Bulla Gastrobar in the Sevilla Room 
+            Time: <b>7:30pm</b>
             <br/>
-            Address: 6007 Legacy Drive Ste 180 Plano, TX 75024  
-            <br />
-            Time: Reservation starts at 7:30pm
+            Location: <b>Bulla Gastrobar in the Sevilla Room</b>
+            <br/>
+            Address: <b>6007 Legacy Drive Ste 180 Plano, TX 75024</b>
             <br />
             Dress: Smart casual
           </p>
@@ -88,15 +88,16 @@ class Main extends React.Component {
           <h3>
             <u>Saturday, November 16</u>
           </h3>
-          <p>
-            11:00am - Whirlyball (3115 Parker Rd, Plano, TX 75023)
-            <br/>
-            Afternoon - King Spa (2154 Royal Ln, Dallas, TX 75229)
-          </p>
+          We would like to spend time with all of you. Please let us know if you can attend the following events.
+          <br/><br/>
+          <ul>
+            <li>11:45am - Whirlyball (3115 Parker Rd, Plano, TX 75023)</li>
+            <li>Afternoon (around 2pm) - King Spa (2154 Royal Ln, Dallas, TX 75229)</li>
+          </ul>
           {close}
         </article>
 
-        <article
+        {/* <article
           id="dallas"
           className={`${
             this.props.article === 'dallas' ? 'active' : ''
@@ -104,9 +105,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Activities Around Dallas</h2>
-          {/* <span className="image main">
-            <img src={pic03} alt="" />
-          </span> */}
           <p>
             <ul>
               <li>Botanical gardens</li>
@@ -115,7 +113,7 @@ class Main extends React.Component {
             </ul>
           </p>
           {close}
-        </article>
+        </article> */}
 
         <article
           id="accommodations"
@@ -168,7 +166,7 @@ class Main extends React.Component {
               <input type="text" name="housing" id="housing" />
             </div>
             <div className="field">
-              <label htmlFor="message">Notes</label>
+              <label htmlFor="message">Notes (please let us know what Sat events you can attend)</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">

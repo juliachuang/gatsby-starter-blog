@@ -9,7 +9,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Julia Chuang & Jeffrey Li</h1>
-        <p>Dallas, Texas ⚫ Friday, November 15, 2019</p>
+        <p>Plano, Texas ⚫ Friday, November 15, 2019</p>
       </div>
     </div>
     <nav>
@@ -44,7 +44,7 @@ const Header = props => (
             Accommodations
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="javascript:;"
             onClick={() => {
@@ -53,7 +53,7 @@ const Header = props => (
           >
             Around Dallas
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="javascript:;"
